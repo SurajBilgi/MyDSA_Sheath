@@ -21,12 +21,11 @@ class Solution(object):
         :type b: str
         :rtype: str
         """
-        sum = int(a,2)+int(b,2)
+        sum = int(a, 2) + int(b, 2)
         return bin(sum)[2:]
 
 
-
 run = Solution()
-a = '1010'
-b = '1011'
-print(run.addBinary(a,b))
+a = "1010"
+b = "1011"
+print(run.addBinary(a, b))
